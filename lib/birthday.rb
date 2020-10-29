@@ -5,10 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-  birthday_kids.each do | winner |
-    if winner[0] == "A"
-    end
-      return winner
-    end
+  birthday_kids.each_with_index do | winner , age |
+    puts "Happy Birthday #{winner}!  You are now #{age} years old!"
   # add your code snippet here!
 end
