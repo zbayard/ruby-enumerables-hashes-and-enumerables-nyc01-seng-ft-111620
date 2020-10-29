@@ -9,5 +9,6 @@ def happy_birthday(birthday_kids)
     if winner[0] == "A"
     end
       return winner
+    end
   # add your code snippet here!
 end
