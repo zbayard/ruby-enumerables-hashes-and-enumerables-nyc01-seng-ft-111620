@@ -5,8 +5,8 @@
 # }
 
 def happy_birthday(birthday_kids)
-  birthday_kids.each_with_index do | winner , age |
-    puts "Happy Birthday #{winner}!  You are now #{age} years old!"
+  birthday_kids.each_with_index do | key , value |
+    puts "#{key}: #{value}"
   end
   # add your code snippet here!
 end
