@@ -7,6 +7,7 @@
 def happy_birthday(birthday_kids)
   birthday_kids.each do | winner |
     if winner[0] == "A"
+    end
       return winner
   # add your code snippet here!
 end
